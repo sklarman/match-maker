@@ -39,9 +39,9 @@ logic - login (false) </b>
 
 <i>Logic for Programming, Artificial Intelligence, and Reasoning - 19th International Conference, LPAR-19, Stellenbosch, South Africa, December 14-19, 2013. Proceedings</i>, http://dblp.l3s.de/d2r/page/publications/conf/lpar/2013
 
-<b>constraint logic programming</b>
+<b>automated reasoning</b>
 
-<i>Constraint and logic programming (ACM:10003795)</i>
+<i>Automated reasoning (ACM:10003794)</i>
 
 4) generating similarity matrices between source and target bags of words, e.g.:
 
