@@ -33,7 +33,7 @@ logic - login (false) </b>
 
 <b> intelligence -intelligentsia|intelligently|intelligent|intelligence</b>
 
-3) generating bags of words out of noun phrases extracted from labels (here conference names and SKOS comcept labels) e.g.:
+3) generating bags of words out of noun phrases extracted from labels (here conference names and SKOS labels) e.g.:
 
 <b>logic programming artificial intelligence reasoning</b> 
 
