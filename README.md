@@ -50,8 +50,6 @@ A sample workflow:
 
 4) generating similarity matrices between source and target bags of words, e.g.:
 
-<p align="center">
-
 ```
 +------------+--------------------+--------------------+--------------------+
 |            |automated           |reasoning           |(MAX VALUE)         |
@@ -68,7 +66,7 @@ A sample workflow:
 +------------+--------------------+--------------------+--------------------+
 |(MAX VALUE) |0.19444444444444445 |1.2                 |                    |
 +------------+--------------------+--------------------+--------------------+```
-</p>
+
 
 5) training a label matching classifier using users accept-reject responses to subsequently proposed matches.
 
