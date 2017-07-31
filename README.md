@@ -22,8 +22,11 @@ A sample workflow:
 1) (supervised) training of a word matching classifier to account for inflectional variants of concepts and minor typos occurring in the source and target labels, e.g.:
 
 <b>logic - logics (true)
-logic - logical (true)
+
+logic - logica (true)
+
 logic - logically (true)
+
 logic - login (false) </b> 
 
 2) applying the classifier for generating mappings from the words in the source and target labels to WordNet vocabulary;
