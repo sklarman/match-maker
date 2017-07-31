@@ -15,8 +15,10 @@ Example data includes:
 
 This work is <b>HEAVILY UNDER CONSTRUCTION!</b>
 
-A sample workflow:
 
+
+A sample workflow:
+-----
 1) (supervised) training of a word matching classifier to account for inflectional variants of concepts and minor typos occurring in the source and target labels, e.g.:
 
 <b>logic - logics (true)
@@ -40,6 +42,7 @@ logic - login (false) </b>
 
 4) generating similarity matrices between source and target bags of words, e.g.:
 
+```
 +------------+--------------------+--------------------+--------------------+
 |(NULL)      |automated           |reasoning           |(NULL)              |
 +------------+--------------------+--------------------+--------------------+
@@ -54,7 +57,7 @@ logic - login (false) </b>
 |reasoning   |0.013333333333333334|1.2                 |1.2                 |
 +------------+--------------------+--------------------+--------------------+
 |(NULL)      |0.19444444444444445 |1.2                 |null                |
-+------------+--------------------+--------------------+--------------------+
++------------+--------------------+--------------------+--------------------+```
 
 5) training a label matching classifier using users accept-reject responses to subsequently proposed matches.
 
