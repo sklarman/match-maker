@@ -21,29 +21,36 @@ A sample workflow:
 -----
 1) (supervised) training of a word matching classifier to account for inflectional variants of concepts and minor typos occurring in the source and target labels, e.g.:
 
-<b>logic - logics (true)
-
-logic - logica (true)
-
-logic - logically (true)
-
-logic - login (false) </b> 
+<p align="center">
+<b>logic - logics (true) </b> 
+</p>
+<p align="center">
+<b>logic - logica (true)</b> 
+</p>
+<p align="center">
+<b>logic - logically (true)</b> 
+</p>
+<p align="center">
+<b>logic - login (false) </b> 
+</p>
 
 2) applying the classifier for generating mappings from the words in the source and target labels to WordNet vocabulary;
 
-<b> intelligence -intelligentsia|intelligently|intelligent|intelligence</b>
+<p align="center"><b> intelligence -intelligentsia|intelligently|intelligent|intelligence</b></p>
 
 3) generating bags of words out of noun phrases extracted from labels (here conference names and SKOS labels) e.g.:
 
-<b>logic programming artificial intelligence reasoning</b> 
+<p align="center"><b>logic programming artificial intelligence reasoning</b></p>
 
 <i>Logic for Programming, Artificial Intelligence, and Reasoning - 19th International Conference, LPAR-19, Stellenbosch, South Africa, December 14-19, 2013. Proceedings</i>, http://dblp.l3s.de/d2r/page/publications/conf/lpar/2013
 
-<b>automated reasoning</b>
+<p align="center"><b>automated reasoning</b></p>
 
 <i>Automated reasoning (ACM:10003794)</i>
 
 4) generating similarity matrices between source and target bags of words, e.g.:
+
+<p align="center">
 
 ```
 +------------+--------------------+--------------------+--------------------+
@@ -61,6 +68,7 @@ logic - login (false) </b>
 +------------+--------------------+--------------------+--------------------+
 |(NULL)      |0.19444444444444445 |1.2                 |null                |
 +------------+--------------------+--------------------+--------------------+```
+</p>
 
 5) training a label matching classifier using users accept-reject responses to subsequently proposed matches.
 
