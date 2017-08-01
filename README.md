@@ -52,7 +52,7 @@ A sample workflow:
 
 ```
 +------------+--------------------+--------------------+--------------------+
-|            |automated           |reasoning           |(MAX VALUE)         |
+|(NULL)      |automated           |reasoning           |(NULL)              |
 +------------+--------------------+--------------------+--------------------+
 |logic       |0.013245033112582781|0.043010752688172046|0.043010752688172046|
 +------------+--------------------+--------------------+--------------------+
@@ -62,12 +62,13 @@ A sample workflow:
 +------------+--------------------+--------------------+--------------------+
 |intelligence|0.053763440860215055|0.5                 |0.5                 |
 +------------+--------------------+--------------------+--------------------+
-|reasoning   |0.013333333333333334|1.2                 |1.2                 |
+|reasoning   |0.013333333333333334|1.0                 |1.0                 |
 +------------+--------------------+--------------------+--------------------+
-|(MAX VALUE) |0.19444444444444445 |1.2                 |                    |
+|(NULL)      |0.19444444444444445 |1.0                 |null                |
 +------------+--------------------+--------------------+--------------------+```
 
+5) Spreading the matching score information to SKOS neighborhood concepts.
 
-5) training a label matching classifier using users accept-reject responses to subsequently proposed matches.
+6) training a label matching classifier using users accept-reject responses to subsequently proposed matches.
 
-6) generating mappings by means of the classifier 
+7) generating mappings by means of the classifier 
