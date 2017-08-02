@@ -1,9 +1,9 @@
 <b>Matchmaker</b>
 ------
 
-A tool for semi-automated label matching. 
+A prototype of a tool for semi-automated (interactive) label matching. 
 
-The prototypical use-case scenario is focused on the task of matching labels extracted from text (noun phrases represented as bags of words) against the labels of SKOS concept from SKOS taxonomy, which are most relevant/semantically related, in order to annotate the text with SKOS concepts and/or extend the SKOS-based knowledge graph with new concepts. 
+The intended use-case scenario is focused on the task of matching labels extracted from text (noun phrases represented as bags of words) against the labels of SKOS concept from SKOS taxonomy, which are most relevant/semantically related, in order to annotate the text with SKOS concepts and/or extend the SKOS-based knowledge graph with new concepts. 
 
 Key components involved:
 * WordNet vocabulary (http://wordnet-rdf.princeton.edu/) and WordNet-based semantic similarity service (https://github.com/sklarman/wordnet-distance)
