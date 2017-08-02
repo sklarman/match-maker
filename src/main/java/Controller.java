@@ -18,9 +18,9 @@ public class Controller {
 
     public static void main(String[] args) {
 
-    //   (new SimilarityMatrix("inductive logic programming", "rule learning")).print();
-    //    (new SimilarityMatrix("inductive logic programming", "inductive inference")).print();
-    //    (new SimilarityMatrix("inductive logic programming", "concept")).print();
+    //   (new SimilarityMatrix("logic programming artificial intelligence reasoning", "constraint logic programming")).print();
+    //    (new SimilarityMatrix("logic programming artificial intelligence reasoning", "automated reasoning")).print();
+    //    (new SimilarityMatrix("inductive logic programming", "statistical relational learning")).print();
 
         String str;
 

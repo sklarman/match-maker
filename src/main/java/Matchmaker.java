@@ -269,13 +269,18 @@ public class Matchmaker {
         outRecord.put("target", targetWord);
 
      //   if (w2wMaxTable.hasRecord(outRecord)) return w2wMaxTable.getRecord(outRecord);
+        if (sourceWord.equals(targetWord)) {
+            outRecord.put("score", 1);
+            w2wMaxTable.post(outRecord);
+            return outRecord;
+        }
 
         Record record = getWordMatchRecord(sourceWord, targetWord);
 
         String tabPred = getTablePrediction(wordMatchTable, record);
         if (tabPred != null) {
             if (tabPred.equals("true")) {
-                outRecord.put("score", 1.5);
+                outRecord.put("score", 1);
                 w2wMaxTable.post(outRecord);
                 return outRecord;
             } else {
@@ -289,7 +294,7 @@ public class Matchmaker {
             String classPred = getClassifierPrediction(wordMatchClassifier, wordMatchTable, record);
 
             if (classPred.equals("true")) {
-                outRecord.put("score", 1.2);
+                outRecord.put("score", 0.9);
                 w2wMaxTable.post(outRecord);
                 return outRecord;
             }
