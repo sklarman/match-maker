@@ -69,8 +69,8 @@ A sample workflow:
 
 ```
 
-5) Spreading the matching score information to SKOS neighborhood concepts.
+5) Propagating the matching score information to the neighborhood SKOS concepts.
 
-6) training a label matching classifier using users accept-reject responses to subsequently proposed matches.
+6) Training a label matching classifier using users accept-reject responses to subsequently proposed matches.
 
-7) generating mappings by means of the classifier 
+7) Generating mappings by means of the classifier 
